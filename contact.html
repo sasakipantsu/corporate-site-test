@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>株式会社TECH</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+
+<!-------- header -------->
+
+<header class="header">
+    <a class="header__img" href="index.html">
+        <img src="img/logo.png" alt="会社ロゴ">
+    </a>
+    <div id="header__pc-nav">
+        <nav>
+            <ul class="header__pc-li">
+                <li>
+                    <a class="header__pc-li__item" href="index.html">ホーム</a>
+                </li>
+                <li>
+                    <a class="header__pc-li__item" href="service.html">事業内容</a>
+                </li>
+                <li>
+                    <a class="header__pc-li__item" href="news.html">ニュース</a>
+                </li>
+                <li>
+                    <a class="header__pc-li__item" href="blog.html">社員ブログ</a>
+                </li>
+                <li>
+                    <a class="header__pc-li__item" href="company.html">会社概要</a>
+                </li>
+                <li>
+                    <a class="header__pc-li__item" href="recruit.html">採用情報</a>
+                </li>
+                <li>
+                    <a class="header__pc-li__item" href="contact.html">お問い合わせ</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-------  max-width:768px  ------->
+
+    <div id="header__sp-nav">
+        <nav id="navigation">
+            <ul class="header__sp-li">
+                <li>
+                    <a class="header__sp-li__item" href="index.html">ホーム</a>
+                </li>
+                <li>
+                    <a class="header__sp-li__item" href="service.html">事業内容</a>
+                </li>
+                <li>
+                    <a class="header__sp-li__item" href="news.html">ニュース</a>
+                </li>
+                <li>
+                    <a class="header__sp-li__item" href="blog.html">社員ブログ</a>
+                </li>
+                <li>
+                    <a class="header__sp-li__item" href="company.html">会社概要</a>
+                </li>
+                <li><a class="header__sp-li__item" href="recruit.html">採用情報</a></li>
+                <li>
+                    <a class="header__sp-li__item" href="contact.html">お問い合わせ</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="hamburger" id="hamburger__navigation">
+            <span class="hamburger__line--top"></span>
+            <span class="hamburger__line--middle"></span>
+            <span class="hamburger__line--bottom"></span>
+        </nav>
+    </div>
+</header>
+
+
+    <!--------- page__view --------->
+
+
+    <div class="page__view">
+        <h1 class="page__view__ttl">お問い合わせ</h1>
+    </div>
+
+
+    <!--------- main-contact --------->
+
+
+    <main>
+        <div class="main-contact">
+            <form action="resolts.html" method="GET">
+                <div class="input__ttl">
+                    <label for="company">会社名</label>
+                </div>
+                <div class="input">
+                    <input type="text" name="company" id="company" class="input__area">
+                </div>
+                <div class="input__ttl">
+                    <label for="name">お名前<span class="input__ttl-ast"> *</span></label>
+                </div>
+                <div class="input">
+                    <input type="text" name="name" id="name" class="input__area" required>
+                </div>
+                <div class="input__ttl">
+                    <label for="email">メールアドレス<span class="input__ttl-ast"> *</span></label>
+                </div>
+                <div class="input">
+                    <input type="email" name="email" id="email" class="input__area" required>
+                </div>
+                <div class="input__ttl">
+                    <label for="textarea">お問い合わせ<span class="input__ttl-ast"> *</span></label>
+                </div>
+                <div class="input-">
+                    <textarea name="textarea" id="textarea" class="input__area" rows="8" required></textarea>
+                </div>
+                <div class="main-contact__btn">
+                    <input type="submit" class="form__btn" value="お申し込み">
+                </div>
+            </form>
+        </div>
+    </main>
+
+
+    <!--------- footer --------->
+    
+    
+    <div class="footer">
+        <div class="footer__ber">
+            <small class="footer-logo">&copy;2020 TECH inc.</small>
+            <small id="footer__pc-nav">
+                <nav>
+                    <ul class="footer__pc-li">
+                        <li>
+                            <a class="footer__pc-li__item" href="index.html">ホーム</a>
+                        </li>
+                        <li>
+                            <a class="footer__pc-li__item" href="service.html">事業内容</a>
+                        </li>
+                        <li>
+                            <a class="footer__pc-li__item" href="news.html">ニュース</a>
+                        </li>
+                        <li>
+                            <a class="footer__pc-li__item" href="blog.html">社員ブログ</a>
+                        </li>
+                        <li>
+                            <a class="footer__pc-li__item" href="company.html">会社概要</a>
+                        </li>
+                        <li>
+                            <a class="footer__pc-li__item" href="recruit.html">採用情報</a>
+                        </li>
+                        <li>
+                            <a class="footer__pc-li__item" href="contact.html">お問い合わせ</a>
+                        </li>
+                    </ul>
+                </nav>
+            </small>
+    
+            <!-------  max-width:768px  ------->
+    
+            <small id="footer__sp-nav">
+                <nav>
+                    <ul class="footer__sp-li">
+                        <li>
+                            <a class="footer__sp-li__item" href="index.html">ホーム</a>
+                        </li>
+                        <li>
+                            <a class="footer__sp-li__item" href="service.html">事業内容</a>
+                        </li>
+                        <li>
+                            <a class="footer__sp-li__item" href="news.html">ニュース</a>
+                        </li>
+                        <li>
+                            <a class="footer__sp-li__item" href="blog.html">社員ブログ</a>
+                        </li>
+                        <li>
+                            <a class="footer__sp-li__item" href="company.html">会社概要</a>
+                        </li>
+                        <li>
+                            <a class="footer__sp-li__item" href="recruit.html">採用情報</a>
+                        </li>
+                        <li>
+                            <a class="footer__sp-li__item" href="contact.html">お問い合わせ</a>
+                        </li>
+                    </ul>
+                </nav>
+            </small>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
